@@ -1,0 +1,46 @@
+FinalFourAnalysis
+========================================================
+author: Bob Sullivan
+date: 3/13/2016
+
+Predict the Final Four Winner
+========================================================
+
+For more details on authoring R presentations click the
+**Help** button on the toolbar.
+
+- Collect Data
+- Fit a model to past winners
+- Impress your friends
+
+
+Collect Data
+========================================================
+
+1. Go to NCAA.COM
+2. Find the list of past winners
+3. Collect winning percentage and fieldgoal percentage for them
+4. Put that into one CSV with informative column headings
+5. Gather stats for 63 non-winners for every year's worth of winners
+
+
+Fit A Model
+======================================================
+
+- Use the shiny app below analyze your data clusters:
+
+[final four analysis] (https://mspsullivan.shinyapps.io/finalfourwinner/)
+- Split your data into training and testing sets
+- Use a random forest algorythm to predict winner/loser
+- Build a Shiny app to help folks run the model with different teams
+- It's important to use lots of data in the training set
+
+Impress Your friends
+======================================================
+
+1. Call the to your house to watch NCAA basketball games.
+2. Show them your beautiful analysis.
+3. Provide them with food and drink.
+4. Predict the winner of each game before it happens.
+5. Enjoy!
+
